@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<link href ="https://fonts.googleapis.com/css?family=Titillium Web" rel="stylesheet" type="text/css">
+<html>
+<head>
+	<title>
+		Spotify Website Survey
+	</title>
+</head>
+<body>
+<main>
+<link rel="stylesheet" type="text/css" href="style.css">
+<header>
+	<h1 id = "title">Spotify User Experience</h1>
+</header>
+<div id="background" class="thin-border">
+	<p id="description">
+		<strong>This survey is to determine popularity of Spotify and how satisfied are you with Spotify.</strong><br>
+	</p>
+	
+	
+	
+	<form id="survey-form">
+	
+		<div id="general_information">
+			<div id="name_input">
+				<label id="name-label">*<strong>Name</strong>   </label>
+				<input id="name" class="half_width" type="textfield" placeholder="Enter your name here" required>
+			</div>
+			
+			<div id="email_input">
+				<label id="email-label">*<strong>Email</strong></label>
+				<input id="email" class="half_width" type="email" placeholder="Enter your email here" required>
+			</div>
+			
+			<div id="age_input">
+				<label id="number-label" >*<strong>Age</strong></label>
+				<input type="number" class="half_width" id="number" placeholder="Enter your age here" min="1" max="150" required>
+			</div>
+			
+			<div id="dropdown_input">
+				<label id="dropdown-label"><strong>How did you hear about Spotify?</strong></label>
+				<select id="dropdown" >
+					<option disabled selected value>select</option>
+					<option value="facebook">Facebook</option>
+					<option value="google">Google</option>
+					<option value="indeed">Indeed</option>
+					<option value="instagram">Instagram</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+		</div>
+		
+		<div id="user_satisfaction">
+		<label id ="satisfaction"><strong>How satisfied are you with quality of music available on Spotify?</strong></label>
+		<label id ="vsatisfied">
+			<input id ="vsatisfied" value="Very Satisfied"type="radio" name="satisfaction"> Very Satisfied 
+		</label>
+		<label id ="satisfied">
+			<input id ="satisfied" value="Satisfied"type="radio" name="satisfaction"> Satisfied 
+		</label>
+		<label id ="unsatisfied">
+			<input id ="unsatisfied" value="Unsatisfied"type="radio" name="satisfaction"> Unsatisfied 
+		</label>
+		<label id ="vunsatisfied">
+			<input id ="vunsatisfied" value="Very Unsatisfied"type="radio" name="satisfaction"> Very Unsatisfied 
+		</label>
+		</div>
+		
+		
+		<div id="preferred_features">
+		<label id="impfeature"><strong>Which of these features of Spotify website do you think are most important</strong></label>
+		<label for="ad-free">
+			<input id="ad-free" type="checkbox" value="Ad-free music" name="feature"> Ad-free music
+		</label>
+		<label for="download">
+			<input id="download" type="checkbox" value="Downloadable music" name="feature"> Downloadable music
+		</label>
+		<label for="availability">
+			<input id="availability" type="checkbox" value="Multi-platform availability" name="feature"> Multi-platform availability
+		</label>
+		<label for="skips">
+			<input id="skips" type="checkbox" value="Unlimited Skips" name="feature"> Unlimited Skips
+		</label>
+		<label for="HD">
+			<input id="HD" type="checkbox" value="HD quality songs" name="feature"> HD quality songs
+		</label>
+		</div>
+		
+		<div id="user_requests">
+		<label id="comments"><strong>Please add any additional requests you have to improve our services : </strong>
+		</label>
+		<textarea id="addcomments" placeholder="Type Any additional requests here" cols="20" rows="9"></textarea>
+		</div>
+		
+		<div id="submit_button">
+		<button type="submit" id="submit"><strong>Submit</strong></button>
+		</div>
+	</form>
+</div>
+<footer>
+</footer>
+</main>
+</body>
+</html>

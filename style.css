@@ -1,0 +1,108 @@
+.half_width{
+	width:60%;
+}
+
+body{
+	background:linear-gradient(312deg,#7ee8fa 0%, #80ff72 74%);
+	font-family:Titillium Web
+	
+}
+
+h1{
+	text-align:center;
+	
+}
+
+#name_input{
+	display:flex;
+	flex-direction:column;
+	padding-top:2vh;
+	padding-bottom:2vh;
+}
+
+#email_input{
+	display:flex;
+	flex-direction:column;
+	padding-top:2vh;
+	padding-bottom:2vh;
+}
+
+#dropdown_input{
+	display:flex;
+	flex-direction:column;
+}
+
+#age_input{
+	display:flex;
+	flex-direction:column;
+	padding-top:2vh;
+	padding-bottom:2vh;
+}
+
+#dropdown{
+	width:36%;
+}
+
+#background{
+	background-color:white;
+	padding:2vh;
+	margin: 0 auto;
+	width:50%;
+	border:2px solid green;
+	border-radius:10px;
+}
+
+#description{
+
+	border-bottom: 1px solid black;
+}
+
+#general_information{
+	display:flex;
+	flex-direction:column;
+}
+
+#user_satisfaction{
+	display:flex;
+	flex-direction:column;
+	padding-top:3vh;
+	
+}
+
+#preferred_features{
+	display:flex;
+	flex-direction:column;
+	padding-top:3vh;
+}
+
+#user_requests{
+	display:flex;
+	flex-direction:column;
+	padding-top:3vh;
+}
+
+#submit_button{
+	display:flex;
+	flex-direction:row;
+	padding-top:3vh;
+	justify-content:center;
+}
+
+#submit{
+	background:#4CAF50;
+	color:white;
+	border:none;
+	width:10em;
+	height:3em;
+	border-radius:10px;
+}
+#submit:hover{
+	animation-name:button_color;
+	animation-duration:500ms;
+	animation-fill-mode:forwards;
+}
+@keyframes button_color{
+	100%{
+		background-color: #3e8e41
+	}
+}
