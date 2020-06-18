@@ -1,10 +1,14 @@
 .half_width{
 	width:60%;
 }
-
+html{
+	height:100%;
+}
 body{
+	height:100%;
 	background:linear-gradient(312deg,#7ee8fa 0%, #80ff72 74%);
-	font-family:Titillium Web
+	font-family:Titillium Web;
+	background-repeat:no-repeat;
 	
 }
 
